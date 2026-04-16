@@ -584,6 +584,11 @@ strong {
 .card-modal .card-modal-copy {
   padding-right: 20px;
 }
+.card-modal .card-modal-copy a{ 
+  color: #FFF;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 .card-modal .card-modal-copy p {
   color: rgba(255, 255, 255, 0.85);
@@ -593,6 +598,13 @@ strong {
   right: 18px;
   top: 18px;
   z-index: 2;
+}
+button#submitBtn {
+    background: #F90200;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 0;
+    color: #FFF;
 }
 
 @media (max-width: 767px) {
